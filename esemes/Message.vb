@@ -11,7 +11,7 @@ Public MustInherit Class Message
     ''' <summary>
     '''Send a message. Make sure recipients have been specified 
     ''' </summary>
-    ''' <param name="objProvider"></param>
+    ''' <param name="objProvider">EsEmEs provider to send message with</param>
     ''' <returns></returns>
     ''' <remarks></remarks>
     Public Function Send(ByRef objProvider As Provider) As Response
